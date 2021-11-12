@@ -13,6 +13,6 @@ CREATE TABLE `sap-batch-master-record`
     `CreationDateTime`      datetime DEFAULT NULL,
     `LastChangeDateTime`    datetime DEFAULT NULL,
     `BatchIsMarkedForDeletion` varchar(1) DEFAULT NULL,
-    PRIMARY KEY (`Material`, `BatchIdentifyingPlant`,`Batch`),
+    PRIMARY KEY (`Material`, `BatchIdentifyingPlant`,`Batch`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
