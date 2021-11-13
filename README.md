@@ -13,7 +13,7 @@ https://api.sap.com/api/OP_API_BATCH_SRV_0001/overview
 
 sap-batch-master-record-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-batch-master-record.sql
+* sap-batch-master-record.sql（SAP ロットマスタ）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
