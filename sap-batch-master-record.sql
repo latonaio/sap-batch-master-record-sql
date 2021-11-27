@@ -7,12 +7,12 @@ CREATE TABLE `sap-batch-master-record`
     `BatchBySupplier`       varchar(15) DEFAULT NULL,
     `CountryOfOrigin`       varchar(3) DEFAULT NULL,
     `RegionOfOrigin`        varchar(3) DEFAULT NULL,
-    `MatlBatchAvailabilityDate` date DEFAULT NULL,
-    `ShelfLifeExpirationDate` date DEFAULT NULL,
-    `ManufactureDate`       date DEFAULT NULL,
+    `MatlBatchAvailabilityDate` varchar(8) DEFAULT NULL,
+    `ShelfLifeExpirationDate` varchar(8) DEFAULT NULL,
+    `ManufactureDate`       varchar(8) DEFAULT NULL,
     `CreationDateTime`      datetime DEFAULT NULL,
     `LastChangeDateTime`    datetime DEFAULT NULL,
-    `BatchIsMarkedForDeletion` varchar(1) DEFAULT NULL,
+    `BatchIsMarkedForDeletion` bool DEFAULT NULL,
     PRIMARY KEY (`Material`, `BatchIdentifyingPlant`,`Batch`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
