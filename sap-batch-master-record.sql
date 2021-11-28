@@ -12,7 +12,7 @@ CREATE TABLE `sap-batch-master-record`
     `ManufactureDate`       date DEFAULT NULL,
     `CreationDateTime`      datetime DEFAULT NULL,
     `LastChangeDateTime`    datetime DEFAULT NULL,
-    `BatchIsMarkedForDeletion` bool DEFAULT NULL,
+    `BatchIsMarkedForDeletion` tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Material`, `BatchIdentifyingPlant`,`Batch`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
