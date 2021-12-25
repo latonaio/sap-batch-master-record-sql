@@ -1,4 +1,4 @@
-CREATE TABLE `sap-batch-master-record`
+CREATE TABLE `sap_batch_master_record`
 (
     `Material`              varchar(40) NOT NULL,
     `BatchIdentifyingPlant` varchar(4) NOT NULL,
